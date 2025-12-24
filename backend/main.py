@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import auth, dashboard, brands, subscriptions, ai_ops, roadmaps, space_design, decks, accounting, community, support, content
 
-app = FastAPI(title="MarTech ERP API", version="1.0.0")
+app = FastAPI(title="MarTech ERP API ", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
